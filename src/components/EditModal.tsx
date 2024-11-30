@@ -82,7 +82,6 @@ const EditModal: React.FC<AddModalProps> = ({ visible, onClose, contract }) => {
         <div>
           <label className="block mb-1 font-medium">Kurs</label>
           <Select
-            value={courseId}
             placeholder="Kursni tanlang"
             className="w-full"
             onChange={(value) => setCourseId(value)}
