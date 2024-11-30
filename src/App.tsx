@@ -1,6 +1,5 @@
+import RouteController from "./routes";
 
 export default function App() {
-  return (
-    <div>App</div>
-  )
+  return <RouteController />
 }
