@@ -1,6 +1,6 @@
 import { FieldType } from "../types";
 
-const baseUrl = import.meta.env.VITE_BASE_URL;
+const baseUrl = "https://dev.api-erp.najotedu.uz/api";
 
 export default async function authLogin(values: FieldType) {
   const response = await fetch(`${baseUrl}/staff/auth/sign-in`, {

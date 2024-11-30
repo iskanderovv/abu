@@ -1,6 +1,6 @@
 import { CreateContract } from "../types";
 
-const baseUrl = import.meta.env.VITE_BASE_URL;
+const baseUrl = "https://dev.api-erp.najotedu.uz/api";
 
 const accessToken = localStorage.getItem("accessToken");
 
