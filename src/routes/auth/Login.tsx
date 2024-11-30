@@ -37,7 +37,7 @@ export default function Login() {
       <div className="w-[60%] flex flex-col pt-[60px]">
         <img src={logo} className="w-[250px]" alt="Najot Ta'lim logo" />
         <div className="mt-[150px]">
-          <h2 className="font-semibold text-[32px] pb-[32px]">
+          <h2 className="font-medium text-[32px] pb-[32px]">
             Tizimga kirish
           </h2>
           <Form

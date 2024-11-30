@@ -2,7 +2,7 @@ import { FieldType } from "../types";
 
 const baseUrl = import.meta.env.VITE_BASE_URL;
 
-const authLogin = async (values: FieldType) => {
+export default async function authLogin(values: FieldType) {
   const response = await fetch(`${baseUrl}/staff/auth/sign-in`, {
     method: "POST",
     headers: {
@@ -17,4 +17,3 @@ const authLogin = async (values: FieldType) => {
   return response.json();
 };
 
-export default authLogin;

@@ -12,6 +12,9 @@ export default {
         'gilroy-medium': ['Gilroy-Medium', 'sans-serif'],
         'gilroy-regular': ['Gilroy-Regular', 'sans-serif'],
         'gilroy-thin': ['Gilroy-Thin', 'sans-serif']
+      },
+      colors: {
+        'primary': '#0EB182'
       }
     },
   },
